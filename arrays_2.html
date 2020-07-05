@@ -1,0 +1,34 @@
+<script>
+
+  var myArr = [];
+  
+   arrindex = 0;
+
+   while(arrindex<5)
+   {
+     myArr[arrindex] = prompt("enter a name");
+     arrindex ++;
+
+   }
+
+   document.write(myArr.length);
+  
+   for(arrindex=0; arrindex<myArr.length;arrindex++)
+   {
+     document.write("<br />");
+     document.write( myArr[arrindex] );
+
+
+   }
+
+var myDayArr = ["jan","feb","mar","apr","may","june","july","aug","feb"];
+
+for( monindex=0; monindex < myDayArr.length-1;monindex++)
+   {
+     document.write("<br />");
+     document.write( myDayArr[monindex] );
+   }
+
+
+
+</script>
